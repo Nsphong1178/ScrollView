@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logovnu"
+            tools:layout_editor_absoluteY="36dp" />
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Vietnam National University"/>
+        <TextView
+            android:id="@+id/script"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Vietnam National University, Hanoi (VNU; Vietnamese: Đại học Quốc gia Hà Nội, ĐHQGHN) is a public research university system in Hanoi, Vietnam. The university system has 10 member universities and faculties. VNU is one of two Vietnam's national universities, the other one being Vietnam National University, Ho Chi Minh City.
+
+It was ranked 201–250th in Asia by the QS University Rankings 2020. In 2020, it was one of the two Vietnamese universities to be included in the QS Global Ranking of Top 150 universities under 50 years old by 2021.
+Throughout its history, the university has had several name changes: the University of Indochina (Université Indochinoise, 東洋大學 or Đại học Đông Dương; established in 1906), Vietnam National University (Trường Đại học Quốc gia Việt Nam; November 1945), and the University of Hanoi (Trường Đại học Tổng hợp Hà Nội; June 1956). In 1993, Vietnam National University, Hanoi (Đại học Quốc gia Hà Nội) was created by merging the University of Hanoi, Hanoi National University of Education (HNUE) and College of Foreign Languages.[2]
+
+The institution also owns four high schools - three of which are for gifted students in foreign languages (Foreign Language Specialized School), natural science (High School for Gifted Students, Hanoi University of Science), social science (High School for Gifted Students in Social Sciences and Humanities), and the fourth school (High School of Educational Sciences) applies advanced educational technology in teaching; as well as a middle school (ULIS Middle School).
+"/>
+    </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

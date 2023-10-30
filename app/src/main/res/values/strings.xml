@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ScrollView6</string>
+    <string name="eula_title">End User License Agreement</string>
+        <string name="eula_content">
+        This Agreement outlines the terms related to your use of this Application provided to you by State Farm Mutual Automobile Insurance Company ("State Farm").
+        1. Your Privacy:
+        - State Farm collects the following categories of information from your use of this Application:
+        - Patterns of app usage and screen views;
+        - Location;
+        - Persistent Identifiers (Device ID, Android ID, etc.) - Device Details (Device Model, Operating System
+        version, etc.) For further details about how State Farm handles your information, please view the privacy policy at
+        2. Your Obligations:
+        - You Will:
+        - Not modify, reverse engineer, create derivative works, or otherwise tamper with, the Application except as permitted under applicable open source licenses.
+        - Not redistribute the Application in any way except as permitted under applicable open source licenses.
+        - Comply with any applicable third party terms of agreement when using this Application.
+        - You Are:
+        - Solely responsible for any data charges as a result of your use of this Application.
+        - At least 13 years old and located in the U.S.
+        - Not listed on any U.S. Government list of prohibited or restricted parties.
+        3. Additional Terms:
+        - This is a non-transferable license to use the Application
+    </string>
+
+
+</resources>
